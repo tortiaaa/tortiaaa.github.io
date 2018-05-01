@@ -1,6 +1,89 @@
 body{
-	font-family: Segoe Script, sans-serif;
-	font-size:15px;
-	line-height:1.5;
+		background-color: #f4f4f4;
+		padding: 0;
+		margin: 0;
+	}
+
+	/* Global */
+	.container{
+		width: 90%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	/* Header **/
+	header{
+		background: #3c3c3c;
+		color: white; 
+		min-height: 70px;
+		padding: 0;
+	}
 	
-}
+	header .logo h1{
+		float: left;
+		margin: 0;
+		font: 60px/1.5 Courier New, monospace;
+	}
+	
+	header .sbar{
+		float: right;
+	}
+	
+	header form{
+		margin-top: 10px;
+	}
+	
+	/* Navbar ***/
+	.navbar a{
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+		font: 18px/2.5 Tahoma, Geneva, sans-serif;
+	}
+	.navbar li{
+		display: inline;
+		padding: 0 0 0 40px;
+	}
+	.navbar{
+		text-align: center;
+	}
+	
+	/* Featured ****/
+	.featured img{
+		height: auto;
+		width: 100%;
+	}
+	
+	/* Story *****/
+	.container .story{
+		width:45%;
+		padding:0;
+		margin:0 auto;
+		font-family: Tahohma, Geneva, sans-serif;
+	}
+	
+	/*collection *******/
+	.collection img{
+		height: auto;
+		width: 100%;
+	}
+	
+	/*samples ********/
+	.samples{
+		display: flex;
+		justify-content: space-between // flex-start | flex-end | center | space-around;
+		align-items: stretch // flex-start | flex-end | center | baseline;
+	}
+	
+	.samples img{
+		display: inline-block;
+		width: calc((100% / 3) - 10px);
+		height: 60%;
+	}
+	/*contact ********/
+	.contact{
+		text-align: center;
+		font: 12px/1.5 Tahoma, Geneva, sans-serif;
+	}
+	
+	
